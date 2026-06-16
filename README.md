@@ -1,13 +1,13 @@
 <!-- Profile README: cjluc4s -->
 
-<h1 align="center">Lucas Carmignani — cjluc4s</h1>
+# <p align="center">Lucas Carmignani — cjluc4s</p>
 
 <p align="center">
   Desenvolvedor Fullstack com foco em <b>Frontend & UX</b> • React + TypeScript • .NET (C#) • SQL Server
 </p>
 
 <p align="center">
-  <img src="https://herokuapp.com" />
+  <img src="https://herokuapp.com" alt="Typing SVG" />
 </p>
 
 ---
@@ -20,12 +20,13 @@
 ---
 
 ## 🧩 Minha stack (na prática)
-<div align="center">
-  <img src="https://skillicons.dev" />
-</div>
-<div align="center">
-  <img src="https://skillicons.dev" />
-</div>
+
+<p align="center">
+  <img src="https://skillicons.dev" alt="My Skills" />
+</p>
+<p align="center">
+  <img src="https://skillicons.dev" alt="My Skills" />
+</p>
 
 ---
 
