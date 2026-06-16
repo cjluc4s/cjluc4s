@@ -1,68 +1,66 @@
 <!-- Profile README: cjluc4s -->
 
-# <p align="center">Lucas Carmignani — cjluc4s</p>
+<h1 align="center">Lucas Carmignani — cjluc4s</h1>
 
 <p align="center">
-  Desenvolvedor Fullstack com foco em <b>Frontend & UX</b> • React + TypeScript • .NET (C#) • SQL Server
+  Desenvolvedor Fullstack com foco em <b>Back-end</b> • .NET (C#) • SQL Server • APIs • React
 </p>
 
 <p align="center">
-  <img src="https://herokuapp.com" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com/?color=00BFFF&size=24&center=true&vCenter=true&width=1000&lines=Back-end+%2F+Arquitetura+%2F+Performance;Moderniza%C3%A7%C3%A3o+de+sistemas+corporativos;APIs+REST+com+.NET+e+SQL+bem+modelado" />
 </p>
 
 ---
 
 ## 👇 O que você vai encontrar aqui
 - Projetos com **regras de negócio reais**, foco em **estrutura**, **manutenibilidade** e **escala**
-- Front-end com **React + TypeScript** moderno (gerenciamento de estado, UX fluido e performance)
-- Back-end robusto em **ASP.NET Core**, **Node.js** e atualizações em tempo real com **SignalR**
+- Back-end em **ASP.NET Core**, **EF Core**, **Identity**, **SignalR**
+- Front-end com **React + TypeScript** quando faz sentido (UX + dados em tempo real)
 
 ---
 
 ## 🧩 Minha stack (na prática)
-
-<p align="center">
-  <img src="https://skillicons.dev" alt="My Skills" />
-</p>
-<p align="center">
-  <img src="https://skillicons.dev" alt="My Skills" />
-</p>
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,js,ts,react,html,css" />
+</div>
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=mssql,sqlite,git,github,vscode,visualstudio,windows" />
+</div>
 
 ---
 
 ## 🔥 Projetos em destaque
+
+### 🟦 Gestão de Chamados (Help Desk corporativo)
+**Repo:** https://github.com/cjluc4s/gestao-chamados
+
+O que esse projeto demonstra:
+- **Autenticação e autorização** (Identity) com perfis de acesso
+- **Workflow completo** de status + **SLA por prioridade**
+- **Tempo real** com SignalR (atualizações sem refresh)
+- Estrutura pensada pra crescer: separação por responsabilidades
+
+**Stack:** ASP.NET Core MVC • EF Core • Identity • SignalR • SQLite
+
+---
 
 ### 🟪 Crypto Dashboard (Realtime)
 **Repo:** https://github.com/cjluc4s/dashboard-realtime  
 **Demo:** https://dashboard-realtime-psi.vercel.app
 
 O que esse projeto demonstra:
-- **UI orientada a dados**: gráficos responsivos, indicadores de mercado e estados de carregamento
-- Consumo de API + **cache inteligente** (TanStack Query) evitando re-renders desnecessários
-- Boas práticas de organização frontend (hooks customizados, services e componentes limpos)
+- Consumo de API + **cache inteligente** (TanStack Query)
+- **UI orientada a dados**: gráficos, indicadores e estados de carregamento
+- Boas práticas de organização (hooks/services/components)
 
 **Stack:** React • TypeScript • Vite • TanStack Query • Recharts
 
 ---
 
-### 🟦 Gestão de Chamados (Help Desk corporativo)
-**Repo:** https://github.com/cjluc4s/gestao-chamados
-
-O que esse projeto demonstra:
-- **Tempo real** com SignalR (atualizações instantâneas de interface sem refresh)
-- **Autenticação e autorização** (Identity) com múltiplos perfis de acesso
-- **Workflow completo** de status + regras automatizadas de **SLA por prioridade**
-- Estrutura de backend limpa e modularizada com separação clara de responsabilidades
-
-**Stack:**
-ASP.NET Core MVC • EF Core • Identity • SignalR • SQLite
-
----
-
 ## 🧠 Como eu costumo trabalhar
-- **Foco na experiência do usuário** (interfaces limpas, responsivas, fluidas e acessíveis)
-- **Código limpo > código esperto** (legibilidade, previsibilidade e padrões sólidos de arquitetura)
-- Performance com critério: **estado do frontend otimizado**, SQL bem estruturado e cache inteligente
+- **Código limpo > código esperto** (legibilidade e previsibilidade)
+- Performance com critério: **SQL bem pensado**, cache quando necessário, e sem micro-otimização inútil
+- Projetos com estrutura que facilita: manutenção, testes e evolução
 
 ---
 
