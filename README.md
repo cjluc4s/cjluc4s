@@ -3,30 +3,69 @@
 <h1 align="center">Olá, eu sou o Lucas Carmignani 👋</h1>
 
 <p align="center">
-  <b>Desenvolvedor Fullstack com foco em Back-end</b><br/>
-  .NET (C#) • SQL Server • APIs REST • React + TypeScript
+  <b>Desenvolvedor Full-Stack</b><br/>
+  React • TypeScript • Node.js • C# / .NET • SQL
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&color=00BFFF&size=22&center=true&vCenter=true&width=700&lines=Back-end+%2F+Arquitetura+%2F+Performance;Moderniza%C3%A7%C3%A3o+de+sistemas+corporativos;APIs+REST+com+.NET+e+SQL+bem+modelado" alt="Frases animadas: Back-end, Arquitetura, Performance" />
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&color=00BFFF&size=22&center=true&vCenter=true&width=700&lines=Produtos+pr%C3%B3prios+em+produ%C3%A7%C3%A3o;Do+requisito+ao+deploy;Moderniza%C3%A7%C3%A3o+de+sistemas+corporativos" alt="Frases animadas: produtos próprios em produção, do requisito ao deploy, modernização de sistemas corporativos" />
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/lucas-a40456284/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://github.com/cjluc4s?tab=repositories"><img src="https://img.shields.io/badge/Repositórios-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repositórios" /></a>
-  <img src="https://komarev.com/ghpvc/?username=cjluc4s&label=Visitas&color=00BFFF&style=for-the-badge" alt="Contador de visitas" />
+  <a href="https://www.linkedin.com/in/lucas-carmignani-dev"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://cfjlucas.dev"><img src="https://img.shields.io/badge/Site-cfjlucas.dev-0B0B0B?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Site cfjlucas.dev" /></a>
+  <a href="mailto:lucas.carmignani.dev@gmail.com"><img src="https://img.shields.io/badge/E--mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail" /></a>
 </p>
 
 ---
 
 ## 👨‍💻 Sobre mim
 
-Trabalho com **sistemas corporativos**, do banco de dados à interface. Gosto de projetos com **regras de negócio reais**, estrutura clara e código que dá para manter e evoluir.
+Desenvolvedor full-stack com **dois produtos próprios em produção**, construídos do zero e operados sozinho. Atuo de ponta a ponta: **requisitos, modelagem de dados, API, front-end, testes, deploy e SEO**.
 
-- 🔧 **Back-end:** ASP.NET Core, EF Core, Identity, SignalR
-- 🎨 **Front-end:** React + TypeScript quando faz sentido (UX e dados em tempo real)
-- 🗄️ **Dados:** SQL Server com modelagem e consultas pensadas para performance
+- 🏢 Estagiário de Desenvolvimento de Software na **CET-SP** (desde jul/2025), com sustentação e modernização de sistemas legados em C#, VB.NET, ASP.NET e SQL Server
+- 🎓 Ciência da Computação (Centro Universitário das Américas), **formatura em dez/2026**
 - 📍 São Paulo, SP
+
+---
+
+## 🚀 Projetos em produção
+
+### 🟢 [negocios.com.br](https://negocios.com.br) — Marketplace de prestadores de serviço
+
+Plataforma que conecta clientes a empresas e autônomos: pedido de orçamento, propostas, avaliações e painéis separados para cliente, empresa e administrador (RBAC).
+
+- **API REST** em Node.js/Express com validação **Zod** em todas as rotas, autenticação Supabase, rate limiting, Helmet e logs estruturados (Pino)
+- **PostgreSQL** com mais de **70 migrations** versionadas e testes com Vitest
+- **Busca inteligente com IA** (OpenAI) e importação automática de empresas via Google Places API
+- **SEO técnico:** páginas pré-renderizadas por categoria e cidade, sitemap e robots gerados no build
+- **App Android e iOS** com Capacitor a partir do mesmo código
+
+**Stack:** React • TypeScript • Vite • Node.js • Express • PostgreSQL (Supabase) • Zod • TanStack Query • Capacitor • OpenAI API • Vitest
+
+<br/>
+
+### 🧀 [Laticínios Popoio](https://laticiniospopoio.com.br) — Catálogo online e pedidos
+
+Site e catálogo de um empório com mais de 40 anos na Mooca (SP).
+
+- **Carrinho persistente** e fechamento do pedido pelo WhatsApp
+- **Painel administrativo** para o próprio cliente cadastrar produtos, preços e categorias sem depender do desenvolvedor
+- Imagens otimizadas com `next/image`, metadados Open Graph e integração com Google Maps/Waze
+
+**Stack:** Next.js (App Router) • TypeScript • Tailwind CSS • Supabase (Auth, DB, Storage) • Zustand • Zod
+
+---
+
+## 🛠️ Outros projetos
+
+### 🟦 [Sistema de Gestão de Chamados](https://github.com/cjluc4s/gestao-chamados) — Help Desk
+
+- Três perfis de acesso (usuário, atendente e admin), fluxo de status e **SLA por prioridade**
+- Auditoria de ações, dashboard de métricas e exportação em PDF
+- Notificações em tempo real com **SignalR** e separação em Controllers/Services
+
+**Stack:** ASP.NET Core MVC • C# • Entity Framework Core • Identity • SignalR • SQLite
 
 ---
 
@@ -34,46 +73,19 @@ Trabalho com **sistemas corporativos**, do banco de dados à interface. Gosto de
 
 <div align="center">
 
-**Linguagens e front-end**
+**Front-end**
 
-<img src="https://skillicons.dev/icons?i=cs,js,ts,react,html,css" alt="C#, JavaScript, TypeScript, React, HTML, CSS" />
+<img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,html,css,tailwind" alt="React, Next.js, TypeScript, JavaScript, HTML, CSS, Tailwind CSS" />
 
-**Back-end, dados e ferramentas**
+**Back-end**
 
-<img src="https://skillicons.dev/icons?i=dotnet,mssql,sqlite,git,github,vscode,visualstudio,windows" alt=".NET, SQL Server, SQLite, Git, GitHub, VS Code, Visual Studio, Windows" />
+<img src="https://skillicons.dev/icons?i=nodejs,express,cs,dotnet" alt="Node.js, Express, C#, .NET" />
+
+**Dados, infra e ferramentas**
+
+<img src="https://skillicons.dev/icons?i=mssql,postgres,supabase,sqlite,git,github,githubactions,vercel,vscode,visualstudio" alt="SQL Server, PostgreSQL, Supabase, SQLite, Git, GitHub, GitHub Actions, Vercel, VS Code, Visual Studio" />
 
 </div>
-
----
-
-## 🔥 Projetos em destaque
-
-### 🟦 Gestão de Chamados — Help Desk corporativo
-
-Sistema de chamados com perfis de acesso, SLA e atualizações em tempo real.
-
-- **Autenticação e autorização** com Identity e perfis de acesso
-- **Workflow completo** de status, com **SLA por prioridade**
-- **Tempo real** com SignalR, sem precisar de refresh
-- Separação por responsabilidades, pensada para crescer
-
-**Stack:** ASP.NET Core MVC • EF Core • Identity • SignalR • SQLite
-
-[📂 Ver repositório](https://github.com/cjluc4s/gestao-chamados)
-
-<br/>
-
-### 🟪 Crypto Dashboard — Realtime
-
-Painel de criptomoedas com dados atualizados, gráficos e indicadores.
-
-- Consumo de API com **cache inteligente** (TanStack Query)
-- **UI orientada a dados:** gráficos, indicadores e estados de carregamento
-- Organização em hooks, services e components
-
-**Stack:** React • TypeScript • Vite • TanStack Query • Recharts
-
-[📂 Ver repositório](https://github.com/cjluc4s/dashboard-realtime) • [🚀 Ver demo](https://dashboard-realtime-psi.vercel.app)
 
 ---
 
@@ -82,26 +94,17 @@ Painel de criptomoedas com dados atualizados, gráficos e indicadores.
 | Princípio | Na prática |
 |---|---|
 | **Código limpo > código esperto** | Legibilidade e previsibilidade vêm primeiro |
-| **Performance com critério** | SQL bem pensado e cache quando necessário, sem micro-otimização inútil |
-| **Estrutura que evolui** | Organização que facilita manutenção, testes e novas funcionalidades |
-
----
-
-## 📊 GitHub em números
-
-<div align="center">
-  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=cjluc4s&show_icons=true&theme=tokyonight&hide_border=true" alt="Estatísticas do GitHub" />
-  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=cjluc4s&layout=compact&theme=tokyonight&hide_border=true" alt="Linguagens mais usadas" />
-</div>
+| **Validar nas bordas** | Zod nas rotas, testes com Vitest e logs estruturados |
+| **Estrutura que evolui** | Separação por responsabilidades, migrations versionadas e deploy com health check |
 
 ---
 
 ## 📫 Vamos conversar?
 
-Aberto a conversas sobre projetos, oportunidades e trocas de ideias sobre .NET e arquitetura de sistemas.
+Aberto a conversas sobre projetos e oportunidades como desenvolvedor full-stack.
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/lucas-a40456284/" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.linkedin.com/in/lucas-carmignani-dev" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/Falar_no_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Falar no LinkedIn" />
   </a>
 </div>
